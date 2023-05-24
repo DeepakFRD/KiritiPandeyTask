@@ -1,0 +1,68 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Events_Crad_Main_blk {
+  position: relative;
+  margin-bottom: 0 0 4px;
+}
+
+.Events_Label {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  padding: 5px 15px;
+  background: #FF9922;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px 0px 0px 20px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.Events_Crad_Main_blk img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 5px 5px 0 0;
+}
+
+.Events_Body_section {
+  padding: 15px;
+}
+
+.Events_Body_Top_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Events_Body_Top_section h4 {
+  color: #81C14B;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.Events_Menu {
+  background: #F6F6F6;
+  border-radius: 80px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
