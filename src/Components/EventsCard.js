@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { Row, Col, Container, Card, Button } from 'reactstrap'
 import { EventsArray } from './DummyArray'
-import { CornerUpRight, MapPin, MoreHorizontal, Star,ChevronDown } from 'react-feather'
+import { CornerUpRight, MapPin, MoreHorizontal, Star } from 'react-feather'
 
 const EventsCard = () => {
 
@@ -17,7 +17,7 @@ const EventsCard = () => {
                                 <div className='Events_Label'>
                                     {item.label}
                                 </div>
-                                <div className='Events_Body_section '>
+                                <div className='Events_Body_section'>
                                     <div className='Events_Body_Top_section'>
                                         <div>
                                             <h4>Sun, 21 Feb </h4>

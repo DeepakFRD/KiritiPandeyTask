@@ -1,11 +1,13 @@
 
 import './App.css';
-import EventsCard from './Components/EventsCard';
+import ChatBox from './Components/ChatBox';
+// import EventsCard from './Components/EventsCard';
 
 function App() {
   return (
     <div className="App">
-      <EventsCard />
+      {/* <EventsCard /> */}
+      <ChatBox />
     </div>
   );
 }
