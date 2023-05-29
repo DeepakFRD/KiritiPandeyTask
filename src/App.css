@@ -122,31 +122,77 @@
   align-items: center;
 } */
 /*================================ chat section css======================= */
-body {
-  background-color: #f4f4fc;
-  overflow-x: hidden;
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    background-color: #f4f4fc;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 992px) {
+  .cross_section {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .NotInMobile {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .footerBox {
+    display: none;
+  }
+}
+.check {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  color: #7ab6f7;
+  margin-right: 20px;
 }
 * {
   font-family: "Poppins", sans-serif;
 }
 .Main_Chat_Card_Section {
-  height: fit-content;
+  height: 100%;
   padding: 10px;
-  position: fixed;
+  position: relative;
+}
+.Main_Chat_Card_SectionOpen {
+  height: 100%;
+  padding: 10px;
+  position: relative;
+  transform: translateX(0px);
+  transition: all 0.4s ease;
+}
+.Main_Chat_Card_SectionClose {
+  height: 100%;
+  padding: 10px;
+  opacity: 0;
+  position: relative;
+  transform: translateX(-300px);
+  transition: all 0.4s ease;
+}
+.cross {
+  position: absolute;
+  right: 2%;
+  top: 3%;
 }
 .img1 {
   width: 3rem;
   height: auto;
   aspect-ratio: 2/ 2;
   border-radius: 50%;
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-left: 4rem;
 }
 .Main_Chat_Card_Section > P {
   color: #0d1c2e;
-  font-size: 15px;
-  font-weight: 400;
-  margin-left: 1rem;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 2rem;
 }
 .header_section {
   margin-top: 6px;
@@ -155,6 +201,20 @@ body {
   line-height: 1.2;
   margin-left: 2rem;
   cursor: pointer;
+  font-size: 14px;
+  color: #707c97;
+  font-style: Bold;
+}
+.hen_section {
+  font-size: 15px;
+  color: #0d1c2e;
+  margin-left: 30px;
+}
+.drop1 {
+  font-size: 12px;
+}
+a.dropdown-toggle.show.nav-link {
+  color: gray !important;
 }
 .Events_Body_Top_section1 {
   display: flex;
@@ -162,7 +222,7 @@ body {
 }
 p {
   color: #707c97;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .Events_Menu1 {
@@ -223,8 +283,9 @@ p {
   height: 3rem;
 }
 .luy {
-  font-size: 18px;
+  font-size: 16px;
   color: #0d1c2e;
+  margin-top: 5px;
 }
 .wt {
   font-size: 12px;
@@ -277,7 +338,7 @@ p {
   color: #ff3366;
 }
 .Events_Body_Top_section4 {
-  height: 220px;
+  height: 190px;
   width: 100%;
   background: linear-gradient(to right, #7ab7f7, #2c8cf2);
   box-shadow: 5px 5px 10px -2px #7ab6f7 !important;
@@ -403,14 +464,14 @@ span {
 .timeStrip {
   width: 100%;
   position: relative;
-  font-size: 12px;
+  font-size: 9px;
   color: #707c97;
 }
 .timeStrip:before {
   content: "";
   width: 40%;
   height: 1px;
-  background-color: #707c97;
+  background-color: #eff0f7;
   position: absolute;
   top: 50%;
   left: 0;
@@ -420,7 +481,7 @@ span {
   position: absolute;
   width: 40%;
   height: 1px;
-  background-color: #707c97;
+  background-color: #eff0f7;
   top: 50%;
   right: 0;
 }
@@ -443,4 +504,102 @@ span {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.plus1 {
+  background: linear-gradient(to right, #7ab7f7, #2c8cf2);
+  width: 2rem;
+  height: 2rem;
+  aspect-ratio: 1/ 1;
+  border-radius: 50%;
+  color: #f6f6f6;
+  text-align: center;
+  border: none;
+  outline: none;
+  box-shadow: 15px 15px 20px -2px rgba(0, 0, 0, 0.1);
+}
+
+.plus2 {
+  background: linear-gradient(to right, #7ab7f7, #2c8cf2);
+  width: 2rem;
+  height: 2rem;
+  aspect-ratio: 1/ 1;
+  border-radius: 50%;
+  color: #f6f6f6;
+  text-align: center;
+  border: none;
+  outline: none;
+  box-shadow: 15px 15px 20px -2px rgba(0, 0, 0, 0.1);
+}
+
+.plus3 {
+  background: linear-gradient(to right, #7ab7f7, #2c8cf2);
+  width: 2rem;
+  height: 2rem;
+  aspect-ratio: 1/ 1;
+  border-radius: 50%;
+  color: #f6f6f6;
+  text-align: center;
+  border: none;
+  outline: none;
+  box-shadow: 15px 15px 20px -2px rgba(0, 0, 0, 0.1);
+}
+
+.plus4 {
+  background: linear-gradient(to right, #7ab7f7, #2c8cf2);
+  width: 2rem;
+  height: 2rem;
+  aspect-ratio: 1/ 1;
+  border-radius: 50%;
+  color: #f6f6f6;
+  text-align: center;
+  border: none;
+  outline: none;
+  box-shadow: 15px 15px 20px -2px rgba(0, 0, 0, 0.1);
+}
+
+.footerIconSize {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  background: linear-gradient(to right, #7ab7f7, #2c8cf2);
+  aspect-ratio: 1/ 1;
+  border-radius: 50%;
+  color: #f6f6f6;
+  box-shadow: 15px 15px 20px -2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.footerIconSize2 {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-0%, -107%);
+  cursor: pointer;
+}
+.cardheader {
+  background-color: #fafbff;
+  border: none;
+  outline: none;
+}
+.inputBox {
+  font-size: 12px;
+  color: #707c9780;
+}
+.nikolo_header {
+  font-size: 13px;
+  color: #0d1c2e;
+}
+.last_seen {
+  font-size: 10px;
+  color: #2a8bf2;
+}
+a.dropdown-toggle.nav-link {
+  color: gray !important;
+}
+.cardSection_he {
+  height: calc(100vh - 4rem);
+}
+.BackBtnRight {
+  margin: 5px;
 }
