@@ -241,7 +241,7 @@ const ChatBox = () => {
                                         <div>
 
                                             <div className='d-flex align-items-start justify-content-start gap-2 leftMsg' style={{ maxWidth: "100%" }}>
-                                                <img className='chatUserImg' src="https://s3-alpha-sig.figma.com/img/fa64/f5b7/685ecbe71d740ad73411bccba68b2aff?Expires=1685923200&Signature=Rhrhw3ZZb0xzy-N9QvBoUvCubYGRijl18m7041SqJb6-SU-I85giuPFcE~C~BnOvePOZ1gqRYtYxD31o8sW3~SzjUs~u3Edc17gZOekR4~Jvr9JQ~pPAxN9H6f~xDzOKpLbK5XkWAwc6w5ATs4PydGlli-t~iQwsUwSfLA~qvU0Q8oMzZ6AMl6~rf5PGtL2BHkKC9ATEINvDG9SiEDWkxHa4Gb22~~OiAMnzj7WqsvnN9Z4iZBLk~k7xFH2KXCihSGlde3i1Rn88HlxZIf0-tPR7UjZPcGNg-EqUBlIQNI56ok1aePSRgXCmQFBv4iHX0WByY5rj4ergfUIzQYxNhA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="ChatUserImg" />
+                                                <img className='chatUserImg' src="https://s3-alpha-sig.figma.com/img/fa64/f5b7/685ecbe71d740ad73411bccba68b2aff?Expires=1685923200&Signature=Rhrhw3ZZb0xzy-N9QvBoUvCubYGRijl18m7041SqJb6-SU-I85giuPFcE~C~BnOvePOZ1gqRYtYxD31o8sW3~SzjUs~u3Edc17gZOekR4~Jvr9JQ~pPAxN9H6f~xDzOKpLbK5XkWAwc6w5ATs4PydGlli-t~iQwsUwSfLA~qvU0Q8oMzZ6AMl6~rf5PGtL2BHkKC9ATEINvDG9SiEDWkxHa4Gb22~~OiAMnzj7WqsvnN9Z4iZBLk~k7xFH2KXCihSGlde3i1Rn88HlxZIf0-tPR7UjZPcGNg-EqUBlIQNI56ok1aePSRgXCmQFBv4iHX0WByY5rj4ergfUIzQYxNhA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="ChatUserImg" /> 
                                                 <div>
                                                     <div className="Msg d-flex flex-column align-items-start justify-content-start shadow position-relative">
                                                         Style .Zip
@@ -310,12 +310,7 @@ const ChatBox = () => {
                                         <Send size={14} />
                                     </span>
 
-
-
                                 </CardFooter>
-
-
-
                             </Card>
                         </Col>
                     </Row>
