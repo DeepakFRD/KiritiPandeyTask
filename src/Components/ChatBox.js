@@ -56,14 +56,11 @@ const ChatBox = () => {
                     </div>
 
                 </Col>
-
-
-
                 {/* ------------------Second Column Section--------------------- */}
                 <Col className='col-lg-10 col-xl-10 col-md-12 col-sm-12  head-section' style={{ maxHeight: "100vh", overflow: "auto" }} >
                     <Row className='p-4 w-100'>
                         <Col className={`${activeChat === true ? "NotInMobile" : ""}`} md={5} sm={12} style={{ maxHeight: "100vh", overflowY: "auto" }}>
-                            <div className='Events_Body_Top_section1 '>
+                            <div className='Events_Body_Top_section1'>
                                 <div>
                                     <h5>Chats</h5>
                                     <p>Recent Chats&nbsp;<ChevronDown size={15} /></p>
